@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta char set = "utf-8" name= "Education" content=" Mostafa kamel School"> </meta>
+<title>Mostafa Kamel School</title>
+
+<style>
+    /* background-color: rgb(193, 193, 193); */
+
+  body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1521489871110-81dc5a61dbda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #292626;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: gray;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+  h1 {color: black; text-align: center;}
+
+  </style>
+
+</head>
+<body>
+  
+
+
+<!------------------------------------------------------------ page 1 ---------------------------------------------------------------->
+<div class="topnav">
+  <a class=active href="Home.html">Home</a>
+  <a href="StudentsActivity.html">Students Activity</a>
+  <a href="StudentsNames.html">students Names</a>
+  <a href="StudentsRecords.html">Students Records</a>
+</div>
+
+<h1>Mostafa kamel school</h1>
+     
+<!-- ده زرار لما ادوس عليه يطلعلي رسالة انذار وبحط اللي انا اللي عاوزه فيها
+<input type="button" onclick="alert('Welcome in Mostafa Kamel School')" value="Click Me!"> -->
+
+<form action="/Students Data">
+  <fieldset>
+    <legend><strong><strong>Students Data:</strong></strong></legend>
+    <label for="name"><strong>Name</strong></label><br>
+    <input type="text" id="name" name="name" value="" required><br><br>
+    <label for="phone"><strong>Phone:</strong></label><br>
+    <input type="num" id="phone" name="phone" value="" required><br><br>
+      <label for="pwd"><strong>Password:</strong></label><br>
+    <input type="password" id="pwd" name="pwd" minlength="8" maxlength="16" required><br><br>
+     <label for="email"><strong>Enter your email</strong><br></label>
+    <input type="email" id="email" name="email" required><br><br>
+     <label for="birthday"><strong>Birthday</strong><br></label>
+    <input type="date" id="birthday" name="birthday" required><br><br>
+    
+    <label for="levels"><strong>Choose your level</strong></label>
+    <select id="Levels" name="Levels"><br><br>
+      <option value="First">First</option>
+      <option value="Second">Second</option>
+      <option value="Third">Third</option>
+      <option value="Fourth">Fourth</option>
+    </select>
+  
+    <br><br>
+      <p><strong>Choose your fav course</strong></p>
+      <input type="checkbox" id="course1" name="course1" value="Math">
+      <label for="course1"> Math</label><br>
+      <input type="checkbox" id="course2" name="course2" value="Science">
+      <label for="course2"> Science</label><br>
+      <input type="checkbox" id="course3" name="course3" value="Programming">
+      <label for="course3"> Programming</label>
+      
+    <br/><br/>
+    <p><strong>Choose your Gender:</strong></p>
+
+    <ol>
+      <input type="radio" id="male" name="fav_language" value="Male">
+      <li><label for="male"><strong>Male</strong></label></li>
+      <input type="radio" id="female" name="fav_language" value="Female">
+      <li><label for="female"><strong>Female</strong></label></li>
+      <ol><br><br>
+    
+
+   </fieldset>
+</form>
+
+<p><strong>If you click the "Submit" button, the form-data will be sent to students's database "Students's Data"</strong></p>
+<button><input type="submit" value="Submit"></button>
+
+
+<br>
+<br>
+<br>
+</body>
+</html>
